@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"></stop>
+      <stop offset="100%" stop-color="#06B6D4"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#0B1220"></rect>
+
+  <!-- Shield outline -->
+  <path d="M32 10 L50 16 V28 C50 40 42 48 32 54 C22 48 14 40 14 28 V16 Z" fill="none" stroke="url(#grad)" stroke-width="2.5"></path>
+
+  <!-- N letter -->
+  <path d="M22 42V22L34 42V22" stroke="url(#grad)" stroke-width="3" fill="none"></path>
+
+  <!-- S curve -->
+  <path d="M42 24C38 20 30 20 30 26C30 32 42 30 42 36C42 42 34 42 30 38" stroke="#06B6D4" stroke-width="2.5" fill="none"></path>
+</svg>
